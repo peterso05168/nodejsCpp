@@ -1,0 +1,38 @@
+{
+  "name": "expressjs-api-tutorial",
+  "version": "0.0.1",
+  "description": "Tutorial of how to create a REST API using ExpressJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "npm run tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makinhs/expressjs-api-tutorial.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "ExpressJS",
+    "NodeJS"
+  ],
+  "author": "Marcos Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makinhs/expressjs-api-tutorial/issues"
+  },
+  "homepage": "https://github.com/makinhs/expressjs-api-tutorial#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "express": "^4.17.1",
+    "node-addon-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "source-map-support": "^0.5.16",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
