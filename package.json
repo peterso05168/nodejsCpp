@@ -26,6 +26,7 @@
   "homepage": "https://github.com/makinhs/expressjs-api-tutorial#readme",
   "dependencies": {
     "bindings": "^1.5.0",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "node-addon-api": "^3.0.0"
   },

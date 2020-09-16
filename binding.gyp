@@ -1,11 +1,11 @@
 {
   "targets": [
     {
-      "target_name": "greet",
+      "target_name": "calOdds",
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
       "sources": [
-        "./clib/greeting.cpp",
+        "./clib/calOdds.cpp",
         "./clib/index.cpp"
       ],
       "include_dirs": [
