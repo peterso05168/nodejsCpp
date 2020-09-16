@@ -9,7 +9,7 @@ std::int8_t calculateOdds(Napi::Array arr) {
     ShoeTracker<52> st(8);
     int8_t odds = 2;
     try {
-        for(int i = 0; i < arr.Length(); i++) {
+        for(uint32_t i = 0; i < arr.Length(); i++) {
             Napi::Value v = arr[i];
             if (v.IsNumber()) {
                 st.removeCard(v.ToNumber().Int32Value());
